@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* added a background color for better visibility */
+}
+
+.counter-container {
+    text-align: center;
+    background-color: #6dc4e6; /* updated turquoise color */
+    border-radius: 15px; /* reduced border-radius for a cleaner look */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added a subtle box shadow */
+}
+
+#counter {
+    font-size: 36px; /* increased font size for better visibility */
+    margin-bottom: 20px; /* added some margin at the bottom of the counter */
+}
+
+.buttons {
+    display: flex;
+    gap: 10px; /* added gap between buttons for better spacing */
+    justify-content: center;
+}
+
+button {
+    font-size: 18px; /* adjusted font size for better readability */
+    padding: 10px 20px; /* increased padding for better touch area */
+    cursor: pointer;
+    border: none; /* removed button border for a cleaner look */
+    background-color: #4caf50; /* updated button color */
+    color: white; /* changed text color to white */
+    border-radius: 5px; /* added a small border-radius */
+}
+
+button:hover {
+    background-color: #45a049; /* darkened button color on hover */
+}
+h1{
+    color: #f0f0f0;
+}
+
+
